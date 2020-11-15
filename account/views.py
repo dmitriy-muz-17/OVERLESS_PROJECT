@@ -6,7 +6,7 @@ from .forms import LoginForm
 from .forms import  UserEditForm, ProfileEditForm
 from .models import Profile
 from django.contrib.auth.decorators import login_required
-
+from django.contrib import messages
 
 @login_required
 def dashboard(request):
