@@ -28,8 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '1d52420875f4.ngrok.io',
-    'f5b58726d232.ngrok.io'
+    'f5721363c01b.ngrok.io'
 ]
 
 
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'sorl.thumbnail',
     'django.contrib.staticfiles'
 ]
 

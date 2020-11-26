@@ -2,6 +2,8 @@ from django.urls import path, include
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
+from django.utils.encoding import smart_text
+from six import python_2_unicode_compatible
 
 urlpatterns = [
     path('account/', include('account.urls')),
