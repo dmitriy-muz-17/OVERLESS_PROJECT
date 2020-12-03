@@ -9,3 +9,4 @@ pip install sorl-thumbnail
 pip install django-utils-six
 
 from django.utils.six import python_2_unicode_compatible вместо from django.utils.encoding import python_2_unicode_compatible
+http://127.0.0.1:8000/images/create/?title=%20HOMER%20Simpson&url=http://www.belta.by/images/storage/news/with_archive/2018/000029_1534775257_314671_big.jpg
